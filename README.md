@@ -418,7 +418,7 @@ Francisco, CA 94103" where *street*, *city* and *state* are pointers to strings:
 
 Example `main.c`:
 ```
-#include "holberton.h"
+#include "main.h"
 int main(void)
 {
 	char *street = "Mission St.", *city = "San Francisco", *state = "CA";
@@ -435,7 +435,7 @@ all numbers printed with a minimum precision of two digits:
 
 Example `main.c`:
 ```
-#include "holberton.h"
+#include "main.h"
 int main(void)
 {
 	_printf("%.2d + %.2d = %+.2d\n", 1, 2, 1 + 2);
@@ -453,7 +453,7 @@ left-justified with a width of 30:
 
 Example `main.c`:
 ```
-#include "holberton.h"
+#include "main.h"
 #include <limits.h>
 int main(void)
 {
